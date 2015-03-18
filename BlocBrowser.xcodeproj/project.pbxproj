@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		3347BDD41AB783D300199AC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3347BDD31AB783D300199AC9 /* main.m */; };
 		3347BDD71AB783D300199AC9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3347BDD61AB783D300199AC9 /* AppDelegate.m */; };
-		3347BDDA1AB783D300199AC9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3347BDD91AB783D300199AC9 /* ViewController.m */; };
-		3347BDDD1AB783D300199AC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3347BDDB1AB783D300199AC9 /* Main.storyboard */; };
 		3347BDDF1AB783D300199AC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3347BDDE1AB783D300199AC9 /* Images.xcassets */; };
 		3347BDE21AB783D300199AC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3347BDE01AB783D300199AC9 /* LaunchScreen.xib */; };
 		3347BDEE1AB783D300199AC9 /* BlocBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3347BDED1AB783D300199AC9 /* BlocBrowserTests.m */; };
+		3347BDF91AB7850800199AC9 /* BLCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3347BDF81AB7850800199AC9 /* BLCViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +31,13 @@
 		3347BDD31AB783D300199AC9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3347BDD51AB783D300199AC9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3347BDD61AB783D300199AC9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3347BDD81AB783D300199AC9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3347BDD91AB783D300199AC9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3347BDDC1AB783D300199AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3347BDDE1AB783D300199AC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3347BDE11AB783D300199AC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3347BDE71AB783D300199AC9 /* BlocBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3347BDEC1AB783D300199AC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3347BDED1AB783D300199AC9 /* BlocBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocBrowserTests.m; sourceTree = "<group>"; };
+		3347BDF71AB7850800199AC9 /* BLCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCViewController.h; sourceTree = "<group>"; };
+		3347BDF81AB7850800199AC9 /* BLCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +81,8 @@
 			children = (
 				3347BDD51AB783D300199AC9 /* AppDelegate.h */,
 				3347BDD61AB783D300199AC9 /* AppDelegate.m */,
-				3347BDD81AB783D300199AC9 /* ViewController.h */,
-				3347BDD91AB783D300199AC9 /* ViewController.m */,
-				3347BDDB1AB783D300199AC9 /* Main.storyboard */,
+				3347BDF71AB7850800199AC9 /* BLCViewController.h */,
+				3347BDF81AB7850800199AC9 /* BLCViewController.m */,
 				3347BDDE1AB783D300199AC9 /* Images.xcassets */,
 				3347BDE01AB783D300199AC9 /* LaunchScreen.xib */,
 				3347BDD11AB783D300199AC9 /* Supporting Files */,
@@ -199,7 +196,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3347BDDD1AB783D300199AC9 /* Main.storyboard in Resources */,
 				3347BDE21AB783D300199AC9 /* LaunchScreen.xib in Resources */,
 				3347BDDF1AB783D300199AC9 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3347BDDA1AB783D300199AC9 /* ViewController.m in Sources */,
 				3347BDD71AB783D300199AC9 /* AppDelegate.m in Sources */,
 				3347BDD41AB783D300199AC9 /* main.m in Sources */,
+				3347BDF91AB7850800199AC9 /* BLCViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +240,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3347BDDB1AB783D300199AC9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3347BDDC1AB783D300199AC9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3347BDE01AB783D300199AC9 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -350,6 +338,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BlocBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +349,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BlocBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +408,7 @@
 				3347BDF31AB783D300199AC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3347BDF41AB783D300199AC9 /* Build configuration list for PBXNativeTarget "BlocBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +417,7 @@
 				3347BDF61AB783D300199AC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
