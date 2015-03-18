@@ -10,4 +10,7 @@
 
 @interface BLCViewController : UIViewController
 
+-(void)resetWebView;
+
+
 @end
