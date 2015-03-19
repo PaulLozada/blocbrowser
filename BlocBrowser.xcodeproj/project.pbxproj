@@ -13,6 +13,7 @@
 		3347BDE21AB783D300199AC9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3347BDE01AB783D300199AC9 /* LaunchScreen.xib */; };
 		3347BDEE1AB783D300199AC9 /* BlocBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3347BDED1AB783D300199AC9 /* BlocBrowserTests.m */; };
 		3347BDF91AB7850800199AC9 /* BLCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3347BDF81AB7850800199AC9 /* BLCViewController.m */; };
+		336914EE1AB96532001A0A45 /* BLCAwesomeFloatingToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 336914ED1AB96532001A0A45 /* BLCAwesomeFloatingToolbar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		3347BDED1AB783D300199AC9 /* BlocBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocBrowserTests.m; sourceTree = "<group>"; };
 		3347BDF71AB7850800199AC9 /* BLCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCViewController.h; sourceTree = "<group>"; };
 		3347BDF81AB7850800199AC9 /* BLCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCViewController.m; sourceTree = "<group>"; };
+		336914EC1AB96532001A0A45 /* BLCAwesomeFloatingToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLCAwesomeFloatingToolbar.h; sourceTree = "<group>"; };
+		336914ED1AB96532001A0A45 /* BLCAwesomeFloatingToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLCAwesomeFloatingToolbar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 			children = (
 				3347BDD51AB783D300199AC9 /* AppDelegate.h */,
 				3347BDD61AB783D300199AC9 /* AppDelegate.m */,
+				336914EC1AB96532001A0A45 /* BLCAwesomeFloatingToolbar.h */,
+				336914ED1AB96532001A0A45 /* BLCAwesomeFloatingToolbar.m */,
 				3347BDF71AB7850800199AC9 /* BLCViewController.h */,
 				3347BDF81AB7850800199AC9 /* BLCViewController.m */,
 				3347BDDE1AB783D300199AC9 /* Images.xcassets */,
@@ -218,6 +223,7 @@
 				3347BDD71AB783D300199AC9 /* AppDelegate.m in Sources */,
 				3347BDD41AB783D300199AC9 /* main.m in Sources */,
 				3347BDF91AB7850800199AC9 /* BLCViewController.m in Sources */,
+				336914EE1AB96532001A0A45 /* BLCAwesomeFloatingToolbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
